@@ -1,0 +1,287 @@
+  body {
+    margin: 1%;
+    background-size: auto;
+    
+  }
+
+  .background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: fit;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    margin: auto;
+    
+  }
+  
+  .container {
+    border-radius: 15px;
+    width: 90%;
+    max-width: 90%;
+    margin: auto;
+    padding: 0%;
+    display: auto;
+    align-items: center;
+    font-size: auto;
+    height: auto;
+    
+  }
+
+  header {
+    text-align: center;
+    background-color: #e9f3f1;
+    color: #000000;
+    border-radius: 50px;
+    box-shadow: 0px 0px 24px;
+    align-items: center;
+    opacity: 0.7;
+  }
+
+  HE
+
+  header, h1 {
+    margin: 0;
+    font-weight: 120;
+    font-size: 60px;
+    font-display: auto;
+    align-items: center;
+    text-align: center;
+    text-shadow: 3px 3px 3px #ababab;
+  }
+
+  nav ul {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 0;
+    margin: 5;
+  }
+
+  nav ul li {
+    display: inline;
+    
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    transition: background-color 0.3s;
+    
+    
+  }
+
+  nav ul li a:hover {
+    color: #ad18b0;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: center;
+      align-items: center;
+      font-display: center;
+    align-items: center;
+    }
+
+    nav {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      text-align: center;
+    }
+
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+  }
+
+  .form-box {
+
+    body { 
+      margin: 0; 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-around; 
+      flex-direction: column; 
+      height: 100vh; 
+      background-color: #036c5f; 
+    
+  } 
+    
+  .textup { 
+      text-align: center; 
+      font-weight: 700; 
+      font-size: 25px;
+  } 
+    
+  i { 
+      margin-right: 3px; 
+  } 
+    
+  .form-box { 
+      background-color: #ad18b0; 
+      box-shadow: 0 0 10px rgba(36, 67, 40, 0.8); 
+      padding: 15px; 
+      border-radius: 8px; 
+      width: 500px; 
+  } 
+    
+  form { 
+      max-width: 400px; 
+      margin: 0 auto; 
+  } 
+    
+  .radio-group { 
+      display: flex; 
+      margin-bottom: 6px; 
+  } 
+    
+  input[type="radio"] { 
+      margin-right: 8px; 
+  } 
+    
+  label { 
+      display: block; 
+      margin-bottom: 8px; 
+      font-size: 22px; 
+      font-weight: 600; 
+  } 
+    
+  input, 
+  textarea { 
+      width: 100%; 
+      padding: 8px; 
+      margin-bottom: 12px; 
+      box-sizing: border-box; 
+      border-radius: 10px; 
+    
+  } 
+    
+  button { 
+      background-color: #ad18b0;; 
+      color: #fff; 
+      padding: 10px; 
+      border: none; 
+      border-radius: 25px; 
+      cursor: pointer; 
+      width: 100%; 
+      font-size: 20px; 
+      transition: .2s linear;
+  } 
+    
+  button:hover { 
+      background-color: #000000; 
+      border: none; 
+      transform: translateY(-10px); 
+  } 
+    
+  h1 { 
+      color: green; 
+  }
+
+
+  .customer-care{
+    body{
+      padding: 0;
+      margin: 0;
+      color: rgb(172, 60, 60);
+      background-color: rgba(224, 217, 217, 0.863);
+  }
+  .container1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 25px;
+  }
+  h1{
+      width: 100%;
+      font-size: 400px;
+  }
+  h2{
+      font-size: 20px;
+  }
+  .contact-items{
+      display: flex;
+      margin: 30px auto;
+      flex-wrap: wrap;
+      align-items: center;
+
+  }
+  .write-us{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 28%;
+      margin: 30px auto;
+      padding: 35px 15px;
+      border-radius: 15px;
+      text-align: center;
+      min-width: 250px;
+      
+  }
+
+  .write-us{
+      height: 250px;
+      box-shadow: 0 15px 15px red;
+      border: 1px solid red;
+  }
+
+  p{
+      font-size: 200px;
+  }
+  button{
+      padding: 8px 16px;
+      font-size: 17px;
+      border-radius: 25px;
+      border: none;
+      margin: 15px auto;
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+  }
+  button:hover{
+      color: gray;
+  }
+  #cust-care{
+      background: rgb(104, 210, 104);
+
+      box-shadow: 0 0 5px black;
+  }
+ 
+  }
+
+  }
+  #items {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    justify-content: space-evenly;
+    justify-content: center;
+  }
+  #items a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .box {
+    width: 200px;
+    text-align: center;
+    border-style: solid;
+    margin: 30px;
+  }
+
+  .box:hover {
+    background-color: #036c5f;
+  }
+
+  
+  body {
+    font-family: "Exo 2", sans-serif;
+  }
