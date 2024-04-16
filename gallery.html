@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Handmade by JJ</title>
+        <meta name="description" content="handmadebyjj.co.uk">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="handmade by jj, ashes heart, remember a loved one, ashes, HandmadebyJJtoo, Ashes snowflake, charm">
+        <meta name="author" content="handmade by jj">
+        <link rel="stylesheet" href="style.css?v=version2">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/ee6ecb8abe.js" crossorigin="anonymous"></script>
+      </head>
+      
+    <body>
+      <header>
+        <div class="container">
+          <h1><strong>Handmade By JJ</strong></h1>
+          <nav>
+            <ul>
+              <li><a href="index.html"><em>HOME</em></a></li>
+              <li><a href="about.html"><em>ABOUT ME</em></a></li>
+              <li><a href="reviews.html"><em>REVIEWS</em></a></li>
+              <li><a href="contactinfo.html"><em>CONTACT INFO</em></a></li>
+              <li><a href="gallery.html"><em>GALLERY</em></a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
 
+    <h1>GALLERY</h1>
+    
+    <br>
+  
+    <div class="background-video"> 
+        <video autoplay loop muted id="background-video">
+        <source src="vids/139129-771366074.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>
+    </div>    
+    <!-- Main content -->
+    <main>
+        <section id="gallery">
+            <div id="photos">
+                <img src="img\cheesset.png" alt="">
+                <img src="img\skullkeyring.jpg" alt="">
+                <img src="img\green-heart1.jpg" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100063550331447" target="_blank" rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)">
+            <i class="fa-brands fa-facebook fa-6x"></i></a>
+          </li>
+    
+          <li>
+           <a href="https://www.instagram.com/handmade_by_jjtoo/?igsh=NTVyZGZ0Z3BxZ2Rl/" target="_blank" rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)">
+            <i class="fa-brands fa-instagram fa-7x"></i></a>
+          </li>
+        </ul>
+    </footer>
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">BACK TO TOP</button>
+    </body>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+</html>
