@@ -24,6 +24,10 @@ Handmade by JJ is a website that was created to show the arts and crafts that ar
   <li><strong>GALLERY</strong></li>
   <br>
   <p>The Gallery is for showcasing pictures of all the items the creator has made, this could give someone the opportunity to request bespoke items if they are shown in the gallery even if not currently available in the shop. </p>
+
+  <li><strong>FACEBOOK AND INSTAGRAM</strong></li>
+  <br>
+  <P>These are links at the bottom of the page to handmade by jj social media sites</P>
 </ul>
 
 ![amiresponsive](https://github.com/magiclad555/Handmade-By-JJ/assets/165795816/6e169fa7-5732-4f75-b8fe-89c3a081b5e0)
@@ -32,6 +36,7 @@ Handmade by JJ is a website that was created to show the arts and crafts that ar
 
   <ul>
     <li>I have confirmed that by adding the contact info and reviews, the information will be sent via an email to the creator of the products.</li>
+    <br>
     <li>I have checked my website on different phone screens and used phone emulator websites.</li>
     
   </ul>
