@@ -17,124 +17,77 @@
       </head>
       
     <body>
-      <header>
-        <div class="container">
-          <h1><strong>Handmade By JJ</strong></h1>
-          <nav>
-            <ul>
-                <li><a href="index.html"><em><i class="fa-solid fa-house"></i> HOME</em></a></li>
-                <li><a href="about.html"><em><i class="fa-solid fa-circle-info"></i> ABOUT ME</em></a></li>
-                <li><a href="reviews.html"><em><i class="fa-solid fa-book-open-reader"></i>  REVIEWS</em></a></li>
-                <li><a href="contactinfo.html"><i class="fa-solid fa-address-card"></i>  <em>CONTACT INFO</em></a></li>
-                <li><a href="gallery.html"><em><i class="fa-solid fa-images"></i>  GALLERY</em></a></li>
-              </ul>
-            </nav>
-        </div>
-    </header>
+        <header>
+            <div class="container">
+                <h1><strong>Handmade By JJ</strong></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html"><em><i class="fa-solid fa-house"></i> HOME</em></a></li>
+                        <li><a href="about.html"><em><i class="fa-solid fa-circle-info"></i> ABOUT ME</em></a></li>
+                        <li><a href="reviews.html"><em><i class="fa-solid fa-book-open-reader"></i>  REVIEWS</em></a></li>
+                        <li><a href="contactinfo.html"><i class="fa-solid fa-address-card"></i>  <em>CONTACT INFO</em></a></li>
+                        <li><a href="gallery.html"><em><i class="fa-solid fa-images"></i>  GALLERY</em></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-    <h1>REVIEW PAGE</h1>
+        <h1>REVIEW PAGE</h1>
     
-    <br>
+        <br>
   
-    <div class="background-video"> 
-        <video autoplay loop muted id="background-video">
-        <source src="vids/139129-771366074.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>
-    </div>    
+            <div class="background-video"><video autoplay loop muted id="background-video">
+                <source src="vids/139129-771366074.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>
+            </div>
 
-    </body>
-    <!DOCTYPE html> 
-<html lang="en"> 
-  
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" 
-          content="width=device-width,initial-scale=1.0"> 
-    <title>Responsive Form Card</title> 
-    <link rel="stylesheet" href= 
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
-<link rel="stylesheet" href="style.css?v=version2">
-</head> 
-  
-<body> 
-    <h3>
-    </h3> 
-    <div class="form-box"> 
-        <div class="textup"> 
-            <i class="fa fa-solid fa-clock"></i> 
-            It only takes two minutes!! 
-        </div>
+            <div class="form-box"> 
+                    <div class="textup"><i class="fa fa-solid fa-clock"></i>It only takes two minutes!!
+                    </div>
 
-        <div class="background-video"> 
-            <video autoplay loop muted id="background-video">
-            <source src="vids/139129-771366074.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>
-        </div>
-        
-        <br> 
-        <form action="mailto:handmadebyjj@hotmail.com" method="post"> 
-            <label for="name"> 
-                <i class="fa fa-solid fa-user"></i> 
-                Name 
-            </label> 
-            <input type="text" id="name" 
-                   name="name" required> 
+                <br>
+
+                <form action="mailto:handmadebyjj@hotmail.com" method="post">
+                    <label for="name"><i class="fa fa-solid fa-user"></i>Name</label>
+                    <input type="text" id="name" name="name" required> 
+
+                    <label for="email"><i class="fa fa-solid fa-envelope"></i>Email Address</label>
+                    <input type="email" id="email" name="email" required> 
+
+                    <label for="phone"><i class="fa-solid fa-phone"></i>Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required> 
+
+                    <label><i class="fa-solid fa-face-smile"></i>Are you satisfy with our service?</label>
+                    
+                <div class="radio-group"> 
+                    <input type="radio" id="yes" name="satisfy" value="yes" checked>
+                    <label for="yes">Yes</label> 
+
+                    <input type="radio" id="no" name="satisfy" value="no">
+                    <label for="no">No</label> 
+                </div> 
   
-            <label for="email"> 
-                <i class="fa fa-solid fa-envelope"></i> 
-                Email Address 
-            </label> 
-            <input type="email" id="email" 
-                   name="email" required> 
-  
-            <label for="phone"> 
-                <i class="fa-solid fa-phone"></i> 
-                Phone Number 
-            </label> 
-            <input type="tel" id="phone" 
-                   name="phone" required> 
-  
-            <label> 
-                <i class="fa-solid fa-face-smile"></i> 
-                Are you satisfy with our service? 
-            </label> 
-            <div class="radio-group"> 
-                <input type="radio" id="yes" 
-                       name="satisfy" value="yes" checked> 
-                <label for="yes">Yes</label> 
-  
-                <input type="radio" id="no" 
-                       name="satisfy" value="no"> 
-                <label for="no">No</label> 
+                        <label for="msg"><i class="fa-solid fa-comments" style="margin-right: 3px;"></i>Write your review below</label> 
+                        <textarea id="msg" name="msg"  rows="14" cols="100" required> </textarea> 
+            
+                        <button type="button" class="btn btn-primary">SUBMIT</button>
+
+                </form> 
+    
             </div> 
-  
-            <label for="msg"> 
-                <i class="fa-solid fa-comments" 
-                   style="margin-right: 3px;"></i> 
-                Write your review below
-            </label> 
-            <textarea id="msg" name="msg" 
-                      rows="14" cols="100" required> 
-            </textarea> 
-            <button type="submit" > 
-                <class="btn btn-primary>Submit</button> 
-            </button>
-
-        </form> 
-    </div> 
-    <footer>
-        <ul id="social-networks">
-          <li>
-            <a href="https://www.facebook.com/profile.php?id=100063550331447" target="_blank" rel="noopener"
-            aria-label="Visit our Facebook page (opens in a new tab)">
-            <i class="fa-brands fa-facebook fa-6x"></i></a>
-          </li>
     
-          <li>
-           <a href="https://www.instagram.com/handmade_by_jjtoo/?igsh=NTVyZGZ0Z3BxZ2Rl/" target="_blank" rel="noopener"
-            aria-label="Visit our Instagram page (opens in a new tab)">
-            <i class="fa-brands fa-instagram fa-7x"></i></a>
-          </li>
-        </ul>
-    </footer>
+            <footer>
+                <ul id="social-networks">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100063550331447" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook fa-6x"></i></a>
+                    </li>
     
-</body> 
+                    <li>
+                        <a href="https://www.instagram.com/handmade_by_jjtoo/?igsh=NTVyZGZ0Z3BxZ2Rl" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram fa-7x"></i></a>
+                    </li>
+                </ul>
+            </footer>
+    
+    </body> 
 </html>
