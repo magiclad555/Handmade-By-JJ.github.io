@@ -1,6 +1,7 @@
   body {
     margin: 1%;
     background-size: auto;
+    font-family: Lato, sans-serif;
   }
 
   .background-video {
@@ -24,9 +25,7 @@
     max-width: 90%;
     margin: auto;
     padding: 0%;
-    display: auto;
     align-items: center;
-    font-size: auto;
     height: auto;
     
   }
@@ -37,6 +36,7 @@
     color: #000000;
     border-radius: 50px;
     box-shadow: 0px 0px 24px;
+    align-items: center;
     opacity: 0.7;
   }
 
@@ -55,7 +55,6 @@
     list-style-type: none;
     font-size: 30px;
     padding: 0;
-    margin: 5;
   }
 
   nav ul li {
@@ -78,9 +77,7 @@
 
   @media (max-width: 768px) {
     .container {
-      flex-direction: center;
       align-items: center;
-      font-display: center;
     align-items: center;
     }
 
@@ -231,9 +228,12 @@
       border: 1px solid red;
   }
 
+  
   p{
       font-size: 200px;
   }
+
+
   button{
       padding: 8px 16px;
       font-size: 17px;
@@ -274,7 +274,6 @@
   #photo {
     clear: both;
     line-height: 0;
-    column-count: 0;
     column-gap: 0px;
 }
 
@@ -304,9 +303,6 @@
   background-color: #555;
 }
 
-.page{
-  font-weight: em;
-}
 
 .new {
 
@@ -315,7 +311,6 @@
   }
   
   body {
-    font-family: Lato, sans-serif;
     margin: 0;
     padding: 1rem;
     min-height: 100vh;
