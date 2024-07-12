@@ -8,6 +8,7 @@ Handmade by JJ is a website that was created to show the arts and crafts that ar
   <li><strong>HOME</strong></li>
   <br>
     <p>The Home Page is where you click on the handmade items, and by clicking the appropriate link will redirect the customer to the ETSY page.</p>
+    <img src = "HOMEPAGE_handmadebyjj.co.uk.png">
   
   <li><strong>ABOUT ME</strong></li>
   <br>
