@@ -13,18 +13,22 @@ Handmade by JJ is a website that was created to show the arts and crafts that ar
   <li><strong>ABOUT ME</strong></li>
   <br>
     <p>The About page is the story on why my wife got into crafts.</p>
+    <img src = "ABOUT-ME_handmadebyjj.co.uk.png">
   
   <li><strong>REVIEWS</strong></li>
   <br>
     <p>The Review Page is for customers to leave reveiws and in future to have a link to the etsy page review section, this will be used to show all the different reviews received through etsy.</p>
+    <img src = "REVIEW-PAGE_handmadebyjj.co.uk.png">
   
   <li><strong>CONTACT INFO</strong></li>
   <br>
   <p>The Contact Page is made assessable so that the customer can email any questions they have have about the products.</p>
+  <img src = "CONTACT-INFO_handmadebyjj.co.uk.png">
   
   <li><strong>GALLERY</strong></li>
   <br>
   <p>The Gallery is for showcasing pictures of all the items the creator has made, this could give someone the opportunity to request bespoke items if they are shown in the gallery even if not currently available in the shop. </p>
+  <img src = "GALLERY_handmadebyjj.co.uk.png">
 
   <li><strong>FACEBOOK AND INSTAGRAM</strong></li>
   <br>
