@@ -43,6 +43,8 @@ Handmade by JJ is a website that was created to show the arts and crafts that ar
     <li>I have confirmed that by adding the contact info and reviews, the information will be sent via an email to the creator of the products.</li>
     <br>
     <li>I have checked my website on different phone screens and used phone emulator websites.</li>
+    <br>
+    <li>No errors were returned when passing through the official W3C (HTML) validator</li>
     
   </ul>
 
